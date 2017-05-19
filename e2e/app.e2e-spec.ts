@@ -1,10 +1,10 @@
-import { HowsaydevPage } from './app.po';
+import { HowsayPage } from './app.po';
 
-describe('howsaydev App', () => {
-  let page: HowsaydevPage;
+describe('howsay App', () => {
+  let page: HowsayPage;
 
   beforeEach(() => {
-    page = new HowsaydevPage();
+    page = new HowsayPage();
   });
 
   it('should display message saying app works', () => {
